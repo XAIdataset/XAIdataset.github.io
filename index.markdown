@@ -14,3 +14,20 @@ Here is a quick tutorial of our `xaibenchmark` API.
 
 ### [Dataset](/dataset)
 You can find detailed description about our datasets and download them here.
+
+### Citation
+Please consider cite us: 
+
+> Zhang, Yifei, et al. "XAI Benchmark for Visual Explanation." arXiv preprint arXiv:2310.08537 (2023).
+
+**BibTex**: 
+```
+@misc{zhang2023xai,
+      title={XAI Benchmark for Visual Explanation}, 
+      author={Yifei Zhang and Siyi Gu and James Song and Bo Pan and Liang Zhao},
+      year={2023},
+      eprint={2310.08537},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
