@@ -3,14 +3,13 @@ permalink: /dataset/
 title: "Dataset"
 excerpt: "Here to download the datsets"
 layout: default
----
-
-Our dataset collection consists of eight real-world image datasets, 
+description: "Our dataset collection consists of eight real-world image datasets, 
 each containing class labels and ground truth explanation annotations respectively. 
 These datasets serve as benchmarks for visual explanation research,
 providing valuable resources for researchers in this field.
 The subsequent sections provide detailed descriptions of each dataset, 
-including the specific data processing procedures employed.
+including the specific data processing procedures employed."
+---
 
 ## Overview of dataset collection
 
