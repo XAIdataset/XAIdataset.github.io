@@ -21,8 +21,7 @@
 title: XAI Benchmarking
 email: james.song2@emory.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This website is for XAI Dataset Collection for Visual Explanation, 
-  a collection of 8 image datasets that covers a variety of fields and aims to provide standardized benchmarks for visual explanation of Explainable AI (XAI). 
+  XAI benchmarking is a collection of 8 image datasets that covers a variety of fields and aims to provide standardized benchmarks for visual explanation of Explainable AI (XAI). 
   We also provide a user-friendly API with a quick start guide.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
