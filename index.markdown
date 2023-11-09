@@ -6,7 +6,7 @@ excerpt: "This is the description of the project"
 layout: default
 ---
 
-### Introduction
+## Introduction
 The rise of deep learning algorithms has led to significant advancements in computer vision tasks, 
 but their "black box" nature has raised concerns regarding interpretability. 
 Explainable AI (XAI) has emerged as a critical area of research aiming to open this "black box", 
