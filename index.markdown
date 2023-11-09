@@ -4,6 +4,7 @@
 title: "XAI Benchmarking"
 excerpt: "This is the description of the project"
 layout: default
+show_downloads: false
 ---
 
 ## Introduction
