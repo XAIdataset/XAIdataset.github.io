@@ -26,14 +26,17 @@
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
+      {% if page.title != "XAI Benchmarking" %}
+      <a href=" ../ " class="btn">Dataset</a>
+    {% endif %}
       {% if page.title != "Dataset" %}
-        <a href=" ./dataset " class="btn">Dataset</a>
+        <a href=" /dataset " class="btn">Dataset</a>
       {% endif %}
       {% if page.title != "Tutorial" %}
-        <a href=" ./quick_start " class="btn">Tutorial</a>
+        <a href=" /quick_start " class="btn">Tutorial</a>
       {% endif %}
       {% if page.title != "Team" %}
-        <a href=" ./team " class="btn">Team</a>
+        <a href=" /team " class="btn">Team</a>
       {% endif %}
     </header>
 
