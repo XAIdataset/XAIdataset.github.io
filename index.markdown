@@ -29,7 +29,7 @@ To further assess the performance of existing visual explanation methods, we con
 We envision this benchmark could facilitate the advancement of visual explanation models.
 
 ### [Quick Start](./quick_start)
-Here is a quick tutorial of our `xaibenchmark` API.
+You can find a quick tutorial of our `xaibenchmark` API here.
 
 ### [Dataset](./dataset)
 You can find detailed description about our datasets and download them here.
