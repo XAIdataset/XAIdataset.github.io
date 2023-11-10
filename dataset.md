@@ -11,7 +11,7 @@ The subsequent sections provide detailed descriptions of each dataset,
 including the specific data processing procedures employed."
 ---
 
-## Overview of dataset collection
+## Overview of datasets
 
 | Dataset                           | Class Type  |   Size    |     Annotation Type     |    Format    | Balanced | Counterfactual |
 |:----------------------------------|:-----------:|:---------:|:-----------------------:|:------------:|:--------:|:--------------:|
