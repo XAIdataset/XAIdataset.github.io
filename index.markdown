@@ -28,11 +28,11 @@ In addition, we provide a comprehensive review of over 10 evaluation methods for
 To further assess the performance of existing visual explanation methods, we conduct experiments on selected datasets using various evaluation metrics. 
 We envision this benchmark could facilitate the advancement of visual explanation models.
 
-### [Quick Start](./quick_start)
+<!-- ### [Quick Start](./quick_start)
 You can find a quick tutorial of our `xaibenchmark` API here.
 
 ### [Dataset](./dataset)
-You can find detailed description about our datasets and download them here.
+You can find detailed description about our datasets and download them here. -->
 
 ### Citation
 Please consider cite us: 
