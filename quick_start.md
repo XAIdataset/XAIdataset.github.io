@@ -3,10 +3,8 @@ permalink: /quick_start/
 title: "Tutorial"
 excerpt: "This is simple tutorial"
 layout: default
+description: "We provide a user-friendly API for benchmarking performance of visual Explainable Artificial Intelligence (XAI) models. Here is a tutorial on how to get started. "
 ---
-
-We provide a tutorial on how to utilize our proposed `xaibenchmark` library 
-which is used for benchmarking performance of visual Explainable Artificial Intelligence (XAI) models.
 
 ### Installation
 To install the xaibenchmark package, download [xaibenchmark](/files/xaibenchmark.zip) package and install the package from the root directory using:
