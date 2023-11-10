@@ -4,12 +4,10 @@
 title: "XAI Benchmarking"
 excerpt: "This is the description of the project"
 layout: default
----
-
-# XAI Benchmarking
-XAI benchmarking is a collection of 8 image datasets that covers a variety of fields and aims to provide standardized benchmarks for visual explanation of Explainable AI (XAI). 
+description: "XAI benchmarking is a collection of 8 image datasets that covers a variety of fields and aims to provide standardized benchmarks for visual explanation of Explainable AI (XAI). 
 You can download these datasets from this website, and we also provide a user-friendly API with a quick start guide. 
-If you want to learn more, please consider read our paper on Arxiv. 
+If you want to learn more, please consider read our paper on Arxiv. "
+---
 
 ## Introduction
 The rise of deep learning algorithms has led to significant advancements in computer vision tasks, 

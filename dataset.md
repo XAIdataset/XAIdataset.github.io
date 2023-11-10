@@ -5,8 +5,6 @@ excerpt: "Here to download the datsets"
 layout: default
 ---
 
-# Dataset
-
 Our dataset collection consists of eight real-world image datasets, 
 each containing class labels and ground truth explanation annotations respectively. 
 These datasets serve as benchmarks for visual explanation research,
