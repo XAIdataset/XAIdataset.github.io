@@ -28,11 +28,9 @@ In addition, we provide a comprehensive review of over 10 evaluation methods for
 To further assess the performance of existing visual explanation methods, we conduct experiments on selected datasets using various evaluation metrics. 
 We envision this benchmark could facilitate the advancement of visual explanation models.
 
-<!-- ### [Quick Start](./quick_start)
-You can find a quick tutorial of our `xaibenchmark` API here.
+![Examples]("/xaibenchmarking/images/example.png")
+Examples of objective classification dataset showing the original images (row (a)), the visual explanation outputs obtained from GradCAM based on trained RESNET-18 classifier (row (b)), and the corresponding ground truth explanation annotations (row (c)).
 
-### [Dataset](./dataset)
-You can find detailed description about our datasets and download them here. -->
 
 ## Citation
 Please consider cite us: 
