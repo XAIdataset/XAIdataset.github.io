@@ -5,3 +5,7 @@ $header-bg-color: yellow;
 $header-bg-color-secondary: purple;
 
 @import "{{ site.theme }}";
+
+.main-content h2 {
+    color: purple;
+}
