@@ -9,8 +9,9 @@ You can download these datasets from this website, and we also provide a user-fr
 If you want to learn more, please consider read our paper on Arxiv. "
 ---
 
-## Introduction
-The rise of deep learning algorithms has led to significant advancements in computer vision tasks, 
+## Motivation
+The rise of deep learning has ushered in significant progress in computer vision (CV) tasks, yet the "black box" nature of these models often precludes interpretability. This challenge has spurred the development of Explainable Artificial Intelligence (XAI) that generates explanations to AI's decision-making process. An explanation is aimed to not only faithfully reflect the true reasoning process (i.e., faithfulness) but also align with humans' reasoning (i.e., alignment). Within XAI, particularly in image processing, visual explanations highlights images' critical areas important to predictions to elucidate the reasoning behind machine learning models. Despite the considerable body of research in visual explanations, standardized benchmarks for evaluating them are seriously underdeveloped. To address this issue, we develop a benchmark for visual explanation, consisting of eight datasets with human explanation annotations from various domains, accommodating both post-hoc and intrinsic visual explanation methods. Additionally, we devise a visual explanation pipeline that includes data loading, explanation generation, and method evaluation. Our proposed benchmarks facilitate a fair evaluation and comparison of visual explanation methods. Building on our curated collection of datasets, we benchmarked eight existing visual explanation methods and conducted a thorough comparison across four selected datasets using six alignment-based and causality-based metrics.
+<!-- The rise of deep learning algorithms has led to significant advancements in computer vision tasks, 
 but their "black box" nature has raised concerns regarding interpretability. 
 Explainable AI (XAI) has emerged as a critical area of research aiming to open this "black box", 
 and shed light on the decision-making process of AI models. 
@@ -26,7 +27,7 @@ which integrates data loading, preprocessing, experimental setup, and model eval
 This structure enables researchers to conduct fair comparisons of various visual explanation techniques. 
 In addition, we provide a comprehensive review of over 10 evaluation methods for visual explanation to assist researchers in effectively utilizing our dataset collection. 
 To further assess the performance of existing visual explanation methods, we conduct experiments on selected datasets using various evaluation metrics. 
-We envision this benchmark could facilitate the advancement of visual explanation models.
+We envision this benchmark could facilitate the advancement of visual explanation models. -->
 
 <img src="/xaibenchmarking/images/example.png" alt="Examples">
 Examples of objective classification dataset showing the original images (row (a)), the visual explanation outputs obtained from GradCAM based on trained RESNET-18 classifier (row (b)), and the corresponding ground truth explanation annotations (row (c)).
