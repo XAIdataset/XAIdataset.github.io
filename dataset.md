@@ -24,7 +24,7 @@ including the specific data processing procedures employed."
 | [Cats and Dogs <br/>Classification](#cats-and-dogs-classification) | Multi-class |   7,349   | Foreground segmentation |  Pixel-wise  |   Yes    |       No       |
 | [Object <br/>Classification](#object-classification)        | Multi-class |  11,540   | Foreground segmentation |  Pixel-wise  |   Yes    |       No       |
 
-## Gender Classification
+## Gender Classification (Gender-XAI)
 
 <img src="/xaibenchmarking/images/Gender_Clssification.png" alt="Gender_Classification">
 
@@ -39,7 +39,7 @@ Additionally, a subset of the images underwent manual annotation by human annota
 resulting in factual and counterfactual masks. 
 The dataset comprises a total of 1,736 images, each with a class label and human explanation annotation, evenly distributed between females and males.
 
-## Scene Recognition
+## Scene Recognition (Scene-XAI)
 
 <img src="/xaibenchmarking/images/Scene_recognition.png" alt="Scene_Recognition">
 
@@ -55,7 +55,7 @@ _Nature_: mountain, pond, waterfall, field wild, forest broadleaf, rainforest
 _Urban_: house, bridge, campus, tower, street, driveway
 In total, the dataset comprises 2,086 images, each with a class label and human explanation annotation.
 
-## Face Glasses Recognition
+## Face Glasses Recognition (Glasses-XAI)
 
 <img src="/xaibenchmarking/images/Face_Glasses_Recognition.png" alt="Face_Glasses_Recognition">
 
@@ -67,7 +67,7 @@ The CelebAMask-HQ dataset includes manually annotated masks with 19 classes cove
 We utilized the segmentation masks of eyes and glasses to derive factual labels for glasses recognition.
 The dataset includes 885 images, each with a class label and corresponding human explanation annotations.
 
-## Prohibited Item Detection
+## Prohibited Item Detection (Prohibited-XAI)
 
 <img src="/xaibenchmarking/images/Prohibited_Item_Detection.png" alt="Prohibited_Item_Detection">
 
@@ -81,7 +81,7 @@ This approach capitalizes on professional insight, ensuring that our dataset's a
 Consequently, each image is labeled with both a class label and a corresponding ground-truth explanation annotation.
 
 
-## Nodule Detection
+## Nodule Detection (Nodule-XAI)
 
 <img src="/xaibenchmarking/images/Nodule_Detection.png" alt="Nodule_Detection">
 
@@ -97,7 +97,7 @@ After preprocessing, the dataset includes 2,625 positive nodule images and 65,50
 The primary objective of utilizing this dataset is to determine the presence or absence of nodules in the images.
 
 
-## Tumor Detection
+## Tumor Detection (Tumor-XAI)
 
 <img src="/xaibenchmarking/images/Tumor_Detection.png" alt="Tumor_Detection">
 
@@ -108,7 +108,7 @@ Abnormal scans, featuring pancreatic tumors, were derived from the Medical Segme
 The dataset comprises a total of 281 scans with tumors and 80 scans without tumors. 
 In a preprocessing approach akin to that used for the LIDC-IDRI dataset, we converted the 3D scans into 2D slices by randomly selecting along the z-axis, thus setting the stage for a binary classification task to discern between positive (tumorous) and negative (normal) pancreatic samples.
 
-## Cats and Dogs Classification
+## Cats and Dogs Classification (Cat&Dog-XAI)
 
 <img src="/xaibenchmarking/images/Cats_Dogs_Classification.png" alt="Cats&Dogs_Classification">
 
@@ -120,7 +120,7 @@ For the purposes of our research, we treat pixel-level foreground extractions, w
 These extractions effectively highlight the subject of interest in alignment with the class label, mirroring the focus areas a human annotator might identify when asked to explain the basis for classifying an image as either a dog or a cat.
 
 
-## Object Classification
+## Object Classification (Object-XAI)
 
 <img src="/xaibenchmarking/images/Object_Classification.png" alt="Object_Classification">
 
