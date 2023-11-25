@@ -31,9 +31,8 @@ We envision this benchmark could facilitate the advancement of visual explanatio
 
 <img src="/xaibenchmarking/images/overview.png" alt="Overview">
 
-<img src="/xaibenchmarking/images/example.png" alt="Examples">
-Examples of objective classification dataset showing the original images (row (a)), the visual explanation outputs obtained from GradCAM based on trained RESNET-18 classifier (row (b)), and the corresponding ground truth explanation annotations (row (c)).
-
+<img src="/xaibenchmarking/images/examples.png" alt="Examples">
+Examples of images and human explanation annotations from our published dataset collection for four selected datasets.
 
 ## Citation
 Please consider cite us: 
