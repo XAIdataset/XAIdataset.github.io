@@ -16,7 +16,7 @@ Then, we will introduce the data loading functionality of the `xaibenchmark` lib
 We will also present our Human Annotation User Interfaces (UI) for annotating and evaluating explanations. 
 
 ## Installation
-To install the xaibenchmark package, download [xaibenchmark](https://github.com/XAIdataset/xaibenchmarking/) package from GitHub repository and install the package from the root directory using:
+To install the xaibenchmark package, download [xaibenchmark](https://github.com/XAIdataset/XAIdataset.github.io) package from GitHub repository and install the package from the root directory using:
 ```python
 pip install -e .
 ```
@@ -100,7 +100,7 @@ print("Pointing Game: ", pointing_game)
 
 With these tools, you can evaluate the performance of your visual XAI models.
 
-<img src="/xaibenchmarking/images/api_examples.png" alt="api_examples">
+<img src="/images/api_examples.png" alt="api_examples">
 Examples of inputs and outputs of metrics computation
 
 ## Data Loading
@@ -156,11 +156,11 @@ That's it for the data loading functionality of `xaibenchmark`!
 
 You're now ready to use this library to load your data and evaluate your XAI models.
 
-### [Download Package](https://github.com/XAIdataset/xaibenchmarking/)
+### [Download Package](https://github.com/XAIdataset/XAIdataset.github.io)
 
 ## Human Annotation User Interface (UI)
 
-<img src="/xaibenchmarking/images/ui.png" alt="human_annotation_UI">
+<img src="/images/ui.png" alt="human_annotation_UI">
 
 This is the two sets of UI for human annotation and evaluation. 
 

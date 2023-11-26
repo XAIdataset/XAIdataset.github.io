@@ -1,10 +1,10 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "XAI Benchmarking"
+title: "XAI Benchmark for Visual Explanation"
 excerpt: "This is the description of the project"
 layout: default
-description: "XAI benchmarking is a collection of 8 image datasets that covers a variety of fields and aims to provide standardized benchmarks for visual explanation of Explainable AI (XAI). 
+description: "XAI benchmarking is a collection of 8 image datasets that covers a variety of fields along with fidelity and alignment-based evaluation methods and aims to provide standardized benchmarks for visual explanation of Explainable AI (XAI). 
 You can download these datasets from this website, and we also provide a user-friendly API with a quick start guide. 
 If you want to learn more, please consider read our paper on Arxiv. "
 ---
@@ -29,10 +29,10 @@ In addition, we provide a comprehensive review of over 10 evaluation methods for
 To further assess the performance of existing visual explanation methods, we conduct experiments on selected datasets using various evaluation metrics. 
 We envision this benchmark could facilitate the advancement of visual explanation models. -->
 
-<img src="/xaibenchmarking/images/overview.png" alt="Overview">
+<img src="/images/overview.png" alt="Overview">
 Overview of XAI Benchmark for Visual Explanation
 
-<img src="/xaibenchmarking/images/examples.png" alt="Examples">
+<img src="/images/examples.png" alt="Examples">
 Examples of images and human explanation annotations from our published dataset collection for four selected datasets.
 
 ## Citation

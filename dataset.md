@@ -26,7 +26,7 @@ including the specific data processing procedures employed."
 
 ## Gender Classification (Gender-XAI)
 
-<img src="/xaibenchmarking/images/Gender_Clssification.png" alt="Gender_Classification">
+<img src="/images/Gender_Clssification.png" alt="Gender_Classification">
 
 | [Download](https://drive.google.com/uc?export=download&id=1JLlgy3MwrWOZXVHXRItrefoNP4uuVuWc) | 
 
@@ -41,7 +41,7 @@ The dataset comprises a total of 1,736 images, each with a class label and human
 
 ## Scene Recognition (Scene-XAI)
 
-<img src="/xaibenchmarking/images/Scene_recognition.png" alt="Scene_Recognition">
+<img src="/images/Scene_recognition.png" alt="Scene_Recognition">
 
 | [Download](https://drive.google.com/uc?export=download&id=1LM7RlgxmKavq6eaVfRaJDmmipvpzq9c-) |
 
@@ -57,7 +57,7 @@ In total, the dataset comprises 2,086 images, each with a class label and human 
 
 ## Face Glasses Recognition (Glasses-XAI)
 
-<img src="/xaibenchmarking/images/Face_Glasses_Recognition.png" alt="Face_Glasses_Recognition">
+<img src="/images/Face_Glasses_Recognition.png" alt="Face_Glasses_Recognition">
 
 | [Download](https://drive.google.com/uc?export=download&id=1cuRej_M_8z-3MxEeUWoTFLaJsodRdu84) |
 
@@ -69,7 +69,7 @@ The dataset includes 885 images, each with a class label and corresponding human
 
 ## Prohibited Item Detection (Prohibited-XAI)
 
-<img src="/xaibenchmarking/images/Prohibited_Item_Detection.png" alt="Prohibited_Item_Detection">
+<img src="/images/Prohibited_Item_Detection.png" alt="Prohibited_Item_Detection">
 
 | [Download](https://drive.google.com/uc?export=download&id=1wYpdD-CLHShfwDENhhqfbO4P--g5y5-o) |
 
@@ -83,7 +83,7 @@ Consequently, each image is labeled with both a class label and a corresponding 
 
 ## Nodule Detection (Nodule-XAI)
 
-<img src="/xaibenchmarking/images/Nodule_Detection.png" alt="Nodule_Detection">
+<img src="/images/Nodule_Detection.png" alt="Nodule_Detection">
 
 | [Download](https://drive.google.com/uc?export=download&id=1tb531H4UHQhB3v4h-4CIDcH_7sUwf6b4) |
 
@@ -99,7 +99,7 @@ The primary objective of utilizing this dataset is to determine the presence or 
 
 ## Tumor Detection (Tumor-XAI)
 
-<img src="/xaibenchmarking/images/Tumor_Detection.png" alt="Tumor_Detection">
+<img src="/images/Tumor_Detection.png" alt="Tumor_Detection">
 
 | [Download](https://drive.google.com/uc?export=download&id=1yxfnD63jz5pksQwKkR7dAqAu35G6EvCm) |
 
@@ -110,7 +110,7 @@ In a preprocessing approach akin to that used for the LIDC-IDRI dataset, we conv
 
 ## Cats and Dogs Classification (Cat&Dog-XAI)
 
-<img src="/xaibenchmarking/images/Cats_Dogs_Classification.png" alt="Cats&Dogs_Classification">
+<img src="/images/Cats_Dogs_Classification.png" alt="Cats&Dogs_Classification">
 
 | [Download](https://drive.google.com/uc?export=download&id=1O5monh6f5fwjcaz6AvDWabq6eNmiCA_B) |
 
@@ -122,7 +122,7 @@ These extractions effectively highlight the subject of interest in alignment wit
 
 ## Object Classification (Object-XAI)
 
-<img src="/xaibenchmarking/images/Object_Classification.png" alt="Object_Classification">
+<img src="/images/Object_Classification.png" alt="Object_Classification">
 
 | [Download](https://drive.google.com/uc?export=download&id=1khAmuKY_wjMBkQBn_rECeH-Mry4oWxJt) |
 

@@ -18,8 +18,8 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if page.title != "XAI Benchmarking" %}
-        <a href=" ../ " class="btn">Introduction</a>
+      {% if page.title != "XAI Benchmark for Visual Explanation" %}
+        <a href=" ./ " class="btn">Introduction</a>
       {% endif %}
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -30,13 +30,13 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
       {% if page.title != "Dataset" %}
-        <a href=" /xaibenchmarking/dataset " class="btn">Dataset</a>
+        <a href=" /dataset " class="btn">Dataset</a>
       {% endif %}
       {% if page.title != "Tutorial" %}
-        <a href=" /xaibenchmarking/quick_start " class="btn">Tutorial</a>
+        <a href=" /quick_start " class="btn">Tutorial</a>
       {% endif %}
       {% if page.title != "Team Members" %}
-        <a href=" /xaibenchmarking/team " class="btn">Team</a>
+        <a href=" /team " class="btn">Team</a>
       {% endif %}
     </header>
 
