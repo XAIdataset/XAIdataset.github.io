@@ -156,12 +156,14 @@ That's it for the data loading functionality of `xaibenchmark`!
 
 You're now ready to use this library to load your data and evaluate your XAI models.
 
-## [Download Package](https://github.com/XAIdataset/xaibenchmarking/)
+### [Download Package](https://github.com/XAIdataset/xaibenchmarking/)
 
 ## Human Annotation User Interface (UI)
 
 <img src="/xaibenchmarking/images/ui.png" alt="human_annotation_UI">
 
-This is the two sets of UI human annotation and evaluation. 
+This is the two sets of UI for human annotation and evaluation. 
+
 (a) is the interface for attention annotation where users can draw on the image and generate a binary mask of the attention area used for improving model's explanation quality. 
+
 (b) is the interface for models' explanation qualities assessment where 5 model-generated explanations are displayed in random order and users will answer three questions for each explanation to evaluate its quality.
