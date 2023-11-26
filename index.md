@@ -4,7 +4,8 @@
 title: "XAI Benchmark for Visual Explanation"
 excerpt: "This is the description of the project"
 layout: default
-description: "XAI benchmarking is a collection of 8 image datasets that covers a variety of fields along with fidelity and alignment-based evaluation methods and aims to provide standardized benchmarks for visual explanation of Explainable AI (XAI). 
+description: "XAI benchmarking is a collection of 8 image datasets that covers a variety of fields along with fidelity and alignment-based evaluation methods. 
+It aims to provide standardized benchmarks for visual explanation of Explainable AI (XAI). 
 You can download these datasets from this website, and we also provide a user-friendly API with a quick start guide. 
 If you want to learn more, please consider read our paper on Arxiv. "
 ---
