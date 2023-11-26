@@ -6,8 +6,6 @@ layout: default
 description: "We provide a user-friendly API for benchmarking performance of visual Explainable Artificial Intelligence (XAI) models. Here is a tutorial on how to get started. "
 ---
 
-## Introduction
-
 The `xaibenchmark` library serves as a toolkit engineered for assessing the performance of Explainable AI models. 
 This toolkit comprises a variety of methods to calculate evaluation metrics including Intersection over Union (IoU), precision, recall, and the pointing game metric. 
 In addition, it incorporates a data loading functionality which allows for automatic loading of our proposed datasets, 
