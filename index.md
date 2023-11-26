@@ -29,7 +29,7 @@ In addition, we provide a comprehensive review of over 10 evaluation methods for
 To further assess the performance of existing visual explanation methods, we conduct experiments on selected datasets using various evaluation metrics. 
 We envision this benchmark could facilitate the advancement of visual explanation models. -->
 
-<img src="/xaibenchmarking/images/overview.jpg" alt="Overview">
+<img src="/xaibenchmarking/images/overview.png" alt="Overview">
 
 <img src="/xaibenchmarking/images/examples.png" alt="Examples">
 Examples of images and human explanation annotations from our published dataset collection for four selected datasets.
