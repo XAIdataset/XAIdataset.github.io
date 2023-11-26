@@ -30,6 +30,7 @@ To further assess the performance of existing visual explanation methods, we con
 We envision this benchmark could facilitate the advancement of visual explanation models. -->
 
 <img src="/xaibenchmarking/images/overview.png" alt="Overview">
+Overview of XAI Benchmark for Visual Explanation
 
 <img src="/xaibenchmarking/images/examples.png" alt="Examples">
 Examples of images and human explanation annotations from our published dataset collection for four selected datasets.

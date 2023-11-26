@@ -9,15 +9,14 @@ description: "We provide a user-friendly API for benchmarking performance of vis
 ## Introduction
 
 The `xaibenchmark` library serves as a toolkit engineered for assessing the performance of Explainable AI models. 
-This toolkit comprises a variety of methods to calculate evaluation metrics including Intersection over Union (IoU), 
-precision, recall, and the pointing game metric. 
+This toolkit comprises a variety of methods to calculate evaluation metrics including Intersection over Union (IoU), precision, recall, and the pointing game metric. 
 In addition, it incorporates a data loading functionality which allows for automatic loading of our proposed datasets, 
 thus streamlining both the process of model development and evaluation.
 
 In this tutorial, we'll first walk through how to use these evaluation methods, and what kinds of inputs they expect.
 
 ## Installation
-To install the xaibenchmark package, download [xaibenchmark](/files/xaibenchmark.zip) package and install the package from the root directory using:
+To install the xaibenchmark package, download [xaibenchmark](https://github.com/XAIdataset/xaibenchmarking/) package from GitHub repository and install the package from the root directory using:
 ```python
 pip install -e .
 ```
@@ -40,8 +39,7 @@ maps = np.random.rand(num_samples, image_height, image_width)
 gts = np.random.randint(0, 2, (num_samples, image_height, image_width))
 ```
 
-In this example, `maps` is an array of random numbers between 0 and 1, and `gts` is an array of random integers 0 or 1, 
-representing binary labels.
+In this example, `maps` is an array of random numbers between 0 and 1, and `gts` is an array of random integers 0 or 1, representing binary labels.
 
 ## Computing metrics
 
@@ -157,4 +155,4 @@ That's it for the data loading functionality of `xaibenchmark`!
 
 You're now ready to use this library to load your data and evaluate your XAI models.
 
-## [Download Package](/files/xaibenchmark.zip)
+## [Download Package](https://github.com/XAIdataset/xaibenchmarking/)
