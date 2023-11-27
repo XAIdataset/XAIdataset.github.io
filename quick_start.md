@@ -108,7 +108,9 @@ Examples of inputs and outputs of metrics computation
 The `xaibenchmark` library provides an efficient way to load our proposed dataset using the `loading` function. 
 This function prepares your data in a way that's suitable for training, validating, and testing Explainable AI models.
 
-Here is how you can use it:
+To use the `loading` function, please download the corresponding dataset on the [dataset](/dataset.md) page and unzip it. 
+
+Here is how you can use `loading`:
 
 ```python
 import xaibenchmark
