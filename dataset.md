@@ -15,20 +15,20 @@ including the specific data processing procedures employed."
 
 | Dataset                           | Class Type  |   Size    |     Annotation Type     |    Format    | Balanced | Counterfactual |
 |:----------------------------------|:-----------:|:---------:|:-----------------------:|:------------:|:--------:|:--------------:|
-| [Gender <br/>Classification](#gender-classification)        |   Binary    |   5,000   |    Human annotation     |  Pixel-wise  |   Yes    |      Yes       |
-| [Scene <br/>Recognition](#scene-recognition)            |   Binary    |   5,000   |    Human annotation     |  Pixel-wise  |   Yes    |      Yes       |
-| [Face Glasses <br/>Recognition](#face-glasses-recognition)     |   Binary    |    2,614    |    Human annotation     |  Pixel-wise  |   Yes    |       No       |
-| [Prohibited <br/>Item Detection](#prohibited-item-detection)    |   Binary    | 17,654|    Human annotation     | Bounding-box |    Yes    |       No       |
-| [Nodule <br/>Detection](#nodule-detection)             |   Binary    |   5,250   |    Human annotation     |  Pixel-wise  |    Yes    |       No       |
-| [Tumor <br/>Detection](#tumor-detection)              |   Binary    |    361    |    Human annotation     |  Pixel-wise  |    No    |       No       |
-| [Cats and Dogs <br/>Classification](#cats-and-dogs-classification) | Binary |   7,390   | Foreground extraction |  Pixel-wise  |   No    |       No       |
-| [Object <br/>Classification](#object-classification)        | Multi-class |  4,318   | Foreground extraction |  Pixel-wise  |   No    |       No       |
+| [Gender <br/>Classification](#gender-classification-(gender-xai))        |   Binary    |   5,000   |    Human annotation     |  Pixel-wise  |   Yes    |      Yes       |
+| [Scene <br/>Recognition](#scene-recognition-(scene-xai))            |   Binary    |   5,000   |    Human annotation     |  Pixel-wise  |   Yes    |      Yes       |
+| [Face Glasses <br/>Recognition](#face-glasses-recognition-(glasses-xai))     |   Binary    |    2,614    |    Human annotation     |  Pixel-wise  |   Yes    |       No       |
+| [Prohibited <br/>Item Detection](#prohibited-item-detection-(prohibited-xai))    |   Binary    | 17,654|    Human annotation     | Bounding-box |    Yes    |       No       |
+| [Nodule <br/>Detection](#nodule-detection-(nodule-xai))             |   Binary    |   5,250   |    Human annotation     |  Pixel-wise  |    Yes    |       No       |
+| [Tumor <br/>Detection](#tumor-detection-(tumor-xai))              |   Binary    |    361    |    Human annotation     |  Pixel-wise  |    No    |       No       |
+| [Cats and Dogs <br/>Classification](#cats-and-dogs-classification-(cat&dog-xai)) | Binary |   7,390   | Foreground extraction |  Pixel-wise  |   No    |       No       |
+| [Object <br/>Classification](#object-classification-(object-xai))        | Multi-class |  4,318   | Foreground extraction |  Pixel-wise  |   No    |       No       |
 
 ## Gender Classification (Gender-XAI)
 
 <img src="/images/Gender_Clssification.png" alt="Gender_Classification">
 
-| [Download](https://drive.google.com/uc?export=download&id=1JLlgy3MwrWOZXVHXRItrefoNP4uuVuWc) | 
+| [Download](https://drive.google.com/file/d/14F3d0ZzZECloqmWCKAfs3FqMkUMjBwHG/view?usp=drive_link) | 
 
 The gender classification task utilized in our study is derived from the [Microsoft COCO](https://cocodataset.org/) dataset. 
 To construct the task-specific dataset, 
@@ -43,7 +43,7 @@ The dataset comprises a total of 1,736 images, each with a class label and human
 
 <img src="/images/Scene_recognition.png" alt="Scene_Recognition">
 
-| [Download](https://drive.google.com/uc?export=download&id=1LM7RlgxmKavq6eaVfRaJDmmipvpzq9c-) |
+| [Download](https://drive.google.com/file/d/1k5slsco2twIOQ6Jf42iy8Wl_NERgVFiV/view?usp=drive_link) |
 
 The scene recognition dataset used in our study is derived from the [Places365](http://places2.csail.mit.edu/index.html) dataset. 
 The dataset was further annotated manually by [Gao et al.](https://arxiv.org/pdf/2206.13413.pdf) with human annotation UIs to obtain factual and counterfactual masks. 
@@ -59,7 +59,7 @@ In total, the dataset comprises 2,086 images, each with a class label and human 
 
 <img src="/images/Face_Glasses_Recognition.png" alt="Face_Glasses_Recognition">
 
-| [Download](https://drive.google.com/uc?export=download&id=1cuRej_M_8z-3MxEeUWoTFLaJsodRdu84) |
+| [Download](https://drive.google.com/file/d/1fsO5jl7VzK5IEJCdn7Hb9JxsBZ4LkbYz/view?usp=drive_link) |
 
 The face glasses recognition dataset is derived from the [CelebAMask-HQ](http://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebAMask_HQ.html) dataset. 
 The dataset is initially categorized dito stinguishing face images with and without glasses. 
@@ -71,7 +71,7 @@ The dataset includes 885 images, each with a class label and corresponding human
 
 <img src="/images/Prohibited_Item_Detection.png" alt="Prohibited_Item_Detection">
 
-| [Download](https://drive.google.com/uc?export=download&id=1wYpdD-CLHShfwDENhhqfbO4P--g5y5-o) |
+| [Download](https://drive.google.com/file/d/14ZSgpo6v1l-jJuLTpwsw3M7A3OkIm414/view?usp=drive_link) |
 
 The prohibited item detection task in our study is constructed using the [Sixray](https://github.com/MeioJane/SIXray) dataset. 
 The dataset is partitioned by categorizing images based on the presence of prohibited items. 
@@ -85,7 +85,7 @@ Consequently, each image is labeled with both a class label and a corresponding 
 
 <img src="/images/Nodule_Detection.png" alt="Nodule_Detection">
 
-| [Download](https://drive.google.com/uc?export=download&id=1tb531H4UHQhB3v4h-4CIDcH_7sUwf6b4) |
+| [Download](https://drive.google.com/file/d/1bwtIY50NLbLAzGAx9hwgNdK9T59f4EBT/view?usp=drive_link) |
 
 We construct the nodule detection dataset from [LIDC-IDRI](https://pubmed.ncbi.nlm.nih.gov/21452728/) 
 which comprises thoracic computed tomography (CT) scans from lung cancer screenings annotated with lesion markers.  
@@ -101,7 +101,7 @@ The primary objective of utilizing this dataset is to determine the presence or 
 
 <img src="/images/Tumor_Detection.png" alt="Tumor_Detection">
 
-| [Download](https://drive.google.com/uc?export=download&id=1yxfnD63jz5pksQwKkR7dAqAu35G6EvCm) |
+| [Download](https://drive.google.com/file/d/18zIIOiO6ki_6cP403J-T0zrGp7CgNk6G/view?usp=drive_link) |
 
 To construct our dataset, we sourced normal pancreas images from the [Cancer Imaging Archive](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT). 
 Abnormal scans, featuring pancreatic tumors, were derived from the Medical Segmentation Decathlon dataset (MSD), where initial ground-truth annotations by a medical student were rigorously reviewed and refined by a skilled radiologist.
@@ -112,7 +112,7 @@ In a preprocessing approach akin to that used for the LIDC-IDRI dataset, we conv
 
 <img src="/images/Cats_Dogs_Classification.png" alt="Cats&Dogs_Classification">
 
-| [Download](https://drive.google.com/uc?export=download&id=1O5monh6f5fwjcaz6AvDWabq6eNmiCA_B) |
+| [Download](https://drive.google.com/file/d/13yVk7yLSbNxbpPCO49vTOnP4hXs5CSmK/view?usp=drive_link) |
 
 The Cats and Dogs Classification Dataset used in our study is constructed from The [Oxford-IIIT Pet](https://www.robots.ox.ac.uk/~vgg/data/pets/) Dataset. 
 This dataset, tailored for pet image analysis, contains over 7,000 images across 37 unique categories, each corresponding to different breeds of dogs or cats. 
@@ -124,7 +124,7 @@ These extractions effectively highlight the subject of interest in alignment wit
 
 <img src="/images/Object_Classification.png" alt="Object_Classification">
 
-| [Download](https://drive.google.com/uc?export=download&id=1khAmuKY_wjMBkQBn_rECeH-Mry4oWxJt) |
+| [Download](https://drive.google.com/file/d/1c3C_A-uDxObntKTpfHErj8cgzCpfCnyl/view?usp=drive_link) |
 
 The Object Classification Dataset utilized in our study is constructed from the [PASCAL VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) Dataset. 
 The dataset comprises roughly 11,540 images images and covers 20 diverse object categories. These include _cars, dogs, chairs, people, bicycles, cats, horses, birds, boats, aeroplanes, buses, trains, motorcycles, cows, dining tables, potted plants, sheep, sofas, TVs, and bottles_.
