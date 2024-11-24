@@ -15,14 +15,14 @@ including the specific data processing procedures employed."
 
 | Dataset                           | Class Type  |   Size    |     Annotation Type     |    Format    | Balanced | Counterfactual |
 |:----------------------------------|:-----------:|:---------:|:-----------------------:|:------------:|:--------:|:--------------:|
-| [Gender <br/>Classification](#gender-classification)        |   Binary    |   1,736   |    Human annotation     |  Pixel-wise  |   Yes    |      Yes       |
-| [Scene <br/>Recognition](#scene-recognition)            |   Binary    |   2,086   |    Human annotation     |  Pixel-wise  |   Yes    |      Yes       |
-| [Face Glasses <br/>Recognition](#face-glasses-recognition)     |   Binary    |    885    |    Human annotation     |  Pixel-wise  |   Yes    |       No       |
-| [Prohibited <br/>Item Detection](#prohibited-item-detection)    |   Binary    | 1,059,231 |    Human annotation     | Bounding-box |    No    |       No       |
-| [Nodule <br/>Detection](#nodule-detection)             |   Binary    |   2,625   |    Human annotation     |  Pixel-wise  |    No    |       No       |
-| [Tumor <br/>Detection](#tumor-detection)              |   Binary    |    281    |    Human annotation     |  Pixel-wise  |    No    |       No       |
-| [Cats and Dogs <br/>Classification](#cats-and-dogs-classification) | Multi-class |   7,349   | Foreground segmentation |  Pixel-wise  |   Yes    |       No       |
-| [Object <br/>Classification](#object-classification)        | Multi-class |  11,540   | Foreground segmentation |  Pixel-wise  |   Yes    |       No       |
+| [Gender <br/>Classification](#gender-classification)        |   Binary    |   5,000   |    Human annotation     |  Pixel-wise  |   Yes    |      Yes       |
+| [Scene <br/>Recognition](#scene-recognition)            |   Binary    |   5,000   |    Human annotation     |  Pixel-wise  |   Yes    |      Yes       |
+| [Face Glasses <br/>Recognition](#face-glasses-recognition)     |   Binary    |    2,614    |    Human annotation     |  Pixel-wise  |   Yes    |       No       |
+| [Prohibited <br/>Item Detection](#prohibited-item-detection)    |   Binary    | 17,654|    Human annotation     | Bounding-box |    Yes    |       No       |
+| [Nodule <br/>Detection](#nodule-detection)             |   Binary    |   5,250   |    Human annotation     |  Pixel-wise  |    Yes    |       No       |
+| [Tumor <br/>Detection](#tumor-detection)              |   Binary    |    361    |    Human annotation     |  Pixel-wise  |    No    |       No       |
+| [Cats and Dogs <br/>Classification](#cats-and-dogs-classification) | Binary |   7,390   | Foreground extraction |  Pixel-wise  |   No    |       No       |
+| [Object <br/>Classification](#object-classification)        | Multi-class |  4,318   | Foreground extraction |  Pixel-wise  |   No    |       No       |
 
 ## Gender Classification (Gender-XAI)
 
