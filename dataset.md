@@ -1,14 +1,9 @@
 ---
 permalink: /dataset/
-title: "Dataset"
-excerpt: "Here to download the datsets"
+title: "Dataset Collection"
+excerpt: "Explore the eight diverse datasets in Saliency-Bench, complete with ground-truth annotations for evaluating visual explanations in XAI."
 layout: default
-description: "Our dataset collection consists of eight real-world image datasets, 
-each containing class labels and ground truth explanation annotations respectively. 
-These datasets serve as benchmarks for visual explanation research,
-providing valuable resources for researchers in this field.
-The subsequent sections provide detailed descriptions of each dataset, 
-including the specific data processing procedures employed."
+description: "Our dataset collection comprises eight image datasets curated from diverse domains, each containing class labels and corresponding ground-truth explanation annotations. Annotation types include human annotation and foreground extraction, provided in pixel-wise or bounding-box formats. These datasets serve as benchmarks for evaluating visual explanations, providing valuable resources for researchers in the XAI field. Detailed descriptions of each dataset, annotation processes, and data processing are available in the paper (See Section 4.2, Table 1, and Appendix C for details)."
 ---
 
 ## Overview of datasets
