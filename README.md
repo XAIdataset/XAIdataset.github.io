@@ -113,7 +113,7 @@ BibTeX:
 For any questions or feedback:
 
 - Open an [Issue](https://github.com/XAIdataset/XAIdataset.github.io/issues)  
-- Email: [yzh3443@emory.edu]
+- Email: yzh3443@emory.edu
 
 ## 📝 License
 
