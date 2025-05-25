@@ -31,7 +31,21 @@ This benchmark addresses the lack of rigorous evaluation frameworks for assessin
 | Cat&Dog-XAI        | Cat vs Dog Classification    | 7,390     | Foreground Extraction  | Pixel-wise    | No       | No              |
 | Object-XAI         | Multi-class Object Recognition | 4,318   | Foreground Extraction  | Pixel-wise    | No       | No              |
 
+
 More details are available on our [Dataset page](https://xaidataset.github.io/dataset/).
+
+## 📢 Licensing and Attribution Notice
+
+All datasets in **Saliency-Bench** are either:
+- Derived from publicly available sources under academic/research licenses, or
+- Built upon existing datasets by adding human-annotated explanations or saliency labels.
+
+To comply with original dataset licenses:
+- **We do not redistribute any raw image data**. Users must obtain raw data from the official sources.
+- We only provide annotation files, split lists, and mapping scripts that support explanation benchmarking.
+- Users must comply with both the original data licenses and the Saliency-Bench license for our annotations (MIT).
+
+Please refer to each dataset's documentation for original sources and license details.
 
 ## 🚀 Installation
 
