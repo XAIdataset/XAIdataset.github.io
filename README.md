@@ -56,11 +56,10 @@ git clone https://github.com/XAIdataset/XAIdataset.github.io.git
 cd XAIdataset.github.io
 ```
 
-Install the dependencies:
+Install the `xaibenchmark` package (run this from the repository's root directory):
 
 ```bash
-Please refer to http://xaidataset.github.io/quick_start/
-```
+pip install -e .
 
 ## 🛠️ Quick Start
 
