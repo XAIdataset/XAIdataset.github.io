@@ -59,7 +59,7 @@ cd XAIdataset.github.io
 Install the dependencies:
 
 ```bash
-pip install -r requirements.txt
+Please refer to http://xaidataset.github.io/quick_start/
 ```
 
 ## 🛠️ Quick Start
